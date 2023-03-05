@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- css links -->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/all.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+        <!-- start navbar -->
+        <nav class="small-nav">
+            <div class="container">
+                <div class="search">
+                    <input type="text" placeholder="  Search">
+                    <i class="fa-solid fa-magnifying-glass"></i> 
+                </div>
+                <div class="me">
+                    <div class="name">
+                       <p> Amr Khaled Marey</p>
+                    </div>
+                </div>
+                <div class="icons">
+         <a href=""><i class="fa-solid fa-user"></i></a>           
+                  <a href=""><i class="fa-regular fa-heart"></i></a>  
+                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <nav class="main-nav">
+            <div class="navbar">
+                <ul>
+                    <li class="active one" >
+                        <a href="index.html">HOME</a> 
+                        <i class="fa-solid fa-chevron-down"></i>
+                       </li>
+                    <li class="active">
+                        <a href="about.html" >ABOUT</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                    <li>
+                        <a href="shop.html"> SHOP</a>
+                       </li>
+                    <li>
+                        <a href="">CATALOUGE</a>
+                        </li>
+                    <li>
+                        <a href=""> NEW ARRIVALS</a>
+                       </li>
+                    <li>
+                      <a href="">CONTACT</a>  
+                        </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end navbar -->
+
+<!-- start main -->
+<section class="main">
+    <h3 class="home">Home  </h3>
+    <h3>Cart</h3>
+</section>
+<!-- end main -->
+
+<!-- start tables -->
+<section class="tables">
+<table>
+    <thead>
+    <tr>
+        <th>Image</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+        <th>Remove</th>
+    </tr>
+    </thead>
+    <tr>
+        <td><img src="imgs/cloth_2.jpg" alt="" width="100px" height="100px"></td>
+     
+        <td>Polo T-Shirt</td>
+        <td>$50</td>
+        <td>
+            <div class="num-block skin-7">
+                <div class="num-in">
+                  <span class="minus dis">-</span>
+                  <input type="text" class="in-num" value="1" readonly="">
+                  <span class="plus">+</span>
+                </div>
+              </div>
+        </td>
+        <td>
+            $50
+        </td>
+           <td><i class="fa-sharp fa-solid fa-square-xmark"></i></td>
+    </tr>
+    <tr>
+        <td><img src="imgs/cloth_3.jpg" alt="" width="100px" height="100px"></td>
+     
+        <td>Round T-Shirt</td>
+        <td>$150</td>
+        <td>
+            <div class="num-block skin-7">
+                <div class="num-in">
+                  <span class="minus dis">-</span>
+                  <input type="text" class="in-num" value="1" readonly="">
+                  <span class="plus">+</span>
+                </div>
+              </div>
+        </td>
+        <td>
+            $50
+        </td>
+           <td><i class="fa-sharp fa-solid fa-square-xmark"></i></td>
+    </tr>
+</table>
+<div class="sub">
+<div class="btn">
+    <button>
+        <a href="shop.html">UPDATE CART</a>
+    </button>
+    <button style="background-color: white; border: 1px solid #999;">
+        <a href="index.html" >CONTINUE SHOPPING</a>
+    </button>
+    <div class="copoun1">
+        <h3>
+            Coupon
+        </h3>
+        <p>Enter Your Coupon Code If You Have One</p>
+        <div class="copoun2">
+            <input type="text" placeholder="coupon code">
+            <button>
+                <a href="shop.html">APPLY COUPON</a>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="total">
+<h3>
+  CART  TOTALS
+</h3>
+<div class="alltotal">
+    <ul>
+        <li>subtotal       </li><span>$50</span>
+        <li>total       </li><span>$50</span>
+      
+    </ul>
+</div>
+<button>
+    <a href="checkout.html">PROCEED TO CHECKOUT</a>
+</button>
+</div>
+</div>
+</section>
+<hr>
+<!-- end tables -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!-- start footer -->
+    <footer class="footer">
+        <div class="foot">
+            <div class="foo">
+            <h3>Navigations</h3>
+            <ul>
+                <li>Sell online</li>
+                <li>Features</li>
+                <li>Shopping Cart</li>
+                <li>Store Builder</li>
+            </ul>
+            </div>
+            <div class="foo">
+                <ul class="req">
+                    <li>Mobile Commerce</li>
+                    <li>Dropshipping</li>
+                    <li>Website Development</li>
+                </ul>
+            </div>
+            <div class="foo">
+                <ul class="req">
+                    <li>Point Of Sale</li>
+                    <li>Hardware</li>
+                    <li>Software</li>
+                </ul>
+            </div>
+            <div class="foo promo">
+                <h3>Promo</h3>
+                <img src="imgs/hero_1.jpg" alt="">
+                <p><span>Finding Your Perfect Shoes</span></p>
+                <p>Promo In 15--5--2003</p>
+            </div>
+            <div class="foo">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Maghagha in El-Minya Governorate</li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>  01551729880
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i> kamr4014@gmail.com , kamr4014@icloud.com
+                    </li>
+                   
+                </ul>
+                <div class="subscribe">
+                        <h3>Subscribe</h3>
+                        <input type="email" placeholder="Email" >
+                        <button>
+                            <a href="">SEND</a>
+                        </button>
+                    </div> 
+            </div>
+        </div>
+        <div class="copy">
+            <small>&copy; Copyright 2023 All Rights Reserved | This Template Is Made With <i class="fa-solid fa-heart" style="color: blueviolet;"></i> By <strong style="color: blueviolet;">Amr Khaled Marey</strong> </small>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>
