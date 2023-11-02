@@ -1,0 +1,552 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+
+body{
+    font-family: sans-serif;
+scroll-behavior: smooth;
+width: 100%;
+background-color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.special-head{
+    color: #999;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin: 0;
+}
+/* start navbar */
+.navbar-brand>i{
+    font-size: 60px;
+padding: 10px 30px;
+    color: blueviolet;
+    
+}
+.navbar-brand>i:hover{
+    color: black;
+}
+.collapse>.navbar-nav>li>a{
+color: blueviolet;
+font-size: 20px;
+}
+
+.collapse>.navbar-nav>li>.active{
+    color: blueviolet;
+}
+.collapse>.navbar-nav>li>.active:hover{
+    color: red;
+}
+.collapse>.navbar-nav>li>a:hover{
+    color: black;
+}
+
+
+/* end navbar */
+/* start landing */
+.landing{
+    width: 100%;
+    height: 70vh;
+overflow: hidden;
+}
+.land{
+    background: url(../imgs/wall1.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.land>.btn{
+margin: 30% 50% 20% 50%;
+padding:  10px 60px;
+background-color: blueviolet;
+border-radius: 8px;
+color: white;
+font-size: 30px;
+}
+.land>.btn:hover{
+    background-color: black;
+    box-shadow: 50px 100px 100px 100px ;
+}
+/* end landing */
+/* strat services */
+.service{
+    width: 100%;
+    height: 70vh;
+   background-color: #f5f5f5;
+   padding: 70px;
+   overflow: hidden;
+}
+
+.service>.container>.row{
+    width: 100%;
+    height: 100%;
+}
+.service>.container>.row>.col-lg-3>img{
+border-radius: 50%;
+}
+.service>.container>.row>.col-lg-3{
+    position: relative;
+}
+.service>.container>.row>.col-lg-3>.caption
+{
+    position: absolute;
+transform: translate(-50% , -50%);
+bottom: 30%;
+left: 50%;
+text-align: center;
+
+}
+.service>.container>.row>.col-lg-3>.caption>h3{
+    font-weight: 900;
+    font-size: 30px;
+    color: 		#ffd700;
+    letter-spacing: 1px;
+}
+.service>.container>.row>.col-lg-3>.caption>h3:hover{
+    color: black;
+}
+.service>.container>.row>.col-lg-3:hover{
+    scale: 1.1;
+}
+/* end services */
+
+/* start products */
+.products {
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    overflow: hidden;
+}
+
+.products > .row {
+    width: 100%;
+    height: 100%;
+}
+
+.products > .row > .card {
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.products > .row > .card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.products>.row>.card>.card-body>.card-title{
+    font-size: 30px;
+    color: blueviolet;
+font-weight: 900;
+line-height: 1.8;
+letter-spacing: .5px;
+text-align: center;
+}
+.products>.row>.card>.card-body>.btn{
+    background-color: blueviolet;
+    color: white;
+}
+.products>.row>.card>.card-body>.btn:hover{
+    background-color: black;
+}
+.products>.row>.card>.card-body>.card-text{
+    color: #777;
+    font-size: 20px;
+    font-style: italic;
+}
+/* end products */
+/* start brands */
+.brands{
+    width: 100%;
+    height: 50vh;
+    padding: 70px ;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.brands>.container>.row>.col-lg-3>img{
+    height: 200px;
+    width: 200px;
+}
+.brands>.container>.row>.col-lg-3>img:hover{
+    scale: 1.1;
+}
+/* end brands */
+/* start about us */
+.about{
+    width: 100%;
+    height: 70vh;
+    padding: 70px ;
+    overflow: hidden;
+}
+.about>.container>.row>.col-lg-8>img{
+    width: 800px;
+    height: 500px;
+}
+.about>.container>.row>.col-lg-4{
+    margin-top: 10%;
+
+}
+.about>.container>.row>.col-lg-4>p{
+    font-size: 20px;
+    width: 500px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #777;
+}
+/* end about us */
+/* start footer */
+.footer {
+    width: 100%;
+    height: 70vh;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.footer > .container > .row > .col-lg-4 > h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: blueviolet;
+}
+.footer>.container>.row>.col-lg-4>ul{
+    list-style-type: none;
+}
+.footer>.container>.row>.col-lg-4>ul>li{
+margin: 20px;
+font-size: 30px;
+color: #777;
+}
+.footer>.container>.row>.col-lg-4>ul>li>i{
+    font-size: 30px;
+}
+.footer>.container>.row>.col-lg-4>ul>li>a>i:hover{
+    color: black;
+}
+.footer>.container>.row>.col-lg-4>ul>li>a>.fa-facebook{
+
+  color:#4267B2 ;
+}
+.footer>.container>.row>.col-lg-4>ul>li>a>.fa-instagram{
+color: orange;
+}
+.footer>.container>.row>.col-lg-4>ul>li>a>.fa-youtube{
+    color: red;
+}
+.footer>.container>.row>.col-lg-4>ul>li>a>.fa-twitter{
+   color:#1DA1F2 ;
+}
+.footer>.container>.row>.col-12{
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+}
+.footer>.container>.row>.col-lg-4>ul>li>.lamp>button>i{
+    font-size: 40px;
+    color: blueviolet;
+}
+.footer>.container>.row>.col-lg-4>ul>li>.lamp>button{
+    border: none;
+    background-color: transparent;
+}
+.footer>.container>.row>.col-lg-4>ul>li>.lamp>button>i:hover{
+    color: black;
+}
+/* end footer */
+/* start form */
+.form>.container>form>.btn{
+    background-color: blueviolet;
+    color: white;
+}
+.form>.container>form>.mb-3>.alert-danger{
+    display: none;
+}
+/* end form */
+/* start thank */
+.content>.container>.col-12>i{
+    font-size: 50px;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.content>.container>.col-12>p{
+    font-size: 30px;
+    font-weight: 900;
+    color: #777;
+    margin-top: 30px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.content>.container>.col-12>.btn{
+    background-color: blueviolet;
+    color: white;
+    margin: 50px;
+}
+.content>.container>.col-12>.btn:hover{
+    background-color: black;
+
+}
+/* end thank */
+/* start detail */
+
+.detail{
+    width: 100%;
+    height: 70vh;
+    padding: 70px ;
+    overflow: hidden;
+}
+.detail>.container>.row>.col-lg-8>img{
+    width: 800px;
+    height: 500px;
+}
+.detail>.container>.row>.col-lg-4{
+    margin-top: 10%;
+
+}
+.detail>.container>.row>.col-lg-4>p{
+    font-size: 20px;
+    width: 500px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #777;
+}
+
+
+
+/* end detail */
+@media(min-width:180px) and (max-width:299px) {
+    .land>.btn{
+    
+        display:none;
+    }
+    .special-head{
+        color: #999;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: -3px;
+        margin: auto;
+        /* margin: 0; */
+    }
+    .products>.row>.card>.card-body>.card-title{
+  display: none;
+    }
+    .products>.row>.card>.card-body>.btn{
+    display: none;
+    }
+   
+    .products>.row>.card>.card-body>.card-text{
+    display: none;
+    }
+    .products>.row>.card>img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(min-width:300px) and (max-width:576px) {
+    .land>.btn{
+/* margin-top: 90%;
+position: relative;
+right: 60px;
+padding: 10px 50px; */
+display: none;
+    }
+    .service{
+        height: auto;
+
+    }
+    .service>.container>.row>.col-lg-3{
+        margin: 20px 0px;
+    }
+    .navbar-nav{
+        text-align: center;
+}
+.service>.container>.row>.col-lg-3>.caption{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    bottom: 30%;
+    left: 45%;
+    text-align: center;
+}
+.products>.row>.card{
+    margin: 10px;
+}
+.products{
+    height: auto;
+
+}
+.brands{
+    height: auto;
+
+}
+.about{
+    height: auto;
+}
+.about>.container>.row>.col-lg-8>img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about>.container>.row>.col-lg-4>p{
+   width: 300px;
+ margin-right: 50%;
+    letter-spacing: 2px;
+   
+}
+
+
+.detail{
+    height: auto;
+}
+.detail>.container>.row>.col-lg-8>img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.detail>.container>.row>.col-lg-4>p{
+   width: 300px;
+ margin-right: 50%;
+    letter-spacing: 2px;
+   
+}
+.brands>.container>.row>.col-lg-3{
+    margin: 15px;
+}
+
+.footer{
+    height: auto;
+}
+.footer>.container>.row>.col-lg-4>h3{
+    font-size: 30px;
+}
+.footer>.container>.row>.col-lg-4{
+    margin-top: 20px;
+}
+}
+@media(min-width:577px) and (max-width:768px)
+{
+    .service{
+        height: auto;
+        padding: 10px;
+
+    } 
+    .navbar-nav{
+        text-align: center;
+}
+    .service>.container>.row>.col-lg-3{
+        margin: 20px 0px;
+   
+    }
+    .service>.container>.row>.col-lg-3>.caption{
+        position: absolute;
+        transform: translate(-50% , -50%);
+        bottom: 30%;
+        left: 60%;
+        text-align: center;
+    }
+  
+    .products>.row>.card{
+        margin: 20px;
+    }
+    .brands{
+        height: auto;
+
+    }
+    .brands>.container>.row>.col-lg-3{
+        margin: 10px;
+    }
+    .about{
+        height: auto;
+    }
+    .about>.container>.row>.col-lg-8>img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about>.container>.row>.col-lg-4>p{
+        width: 100%;
+        letter-spacing: 2px;
+       
+    }
+    .detail{
+        height: auto;
+    }
+    .detail>.container>.row>.col-lg-8>img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .detail>.container>.row>.col-lg-4>p{
+        width: 100%;
+        letter-spacing: 2px;
+       
+    }
+    .footer{
+        height: auto;
+    }
+}
+@media(min-width:769px) and (max-width:992px)
+{
+    .service{
+        height: auto;
+        padding: 10px;
+    } 
+    .service>.container>.row>.col-lg-3{
+        margin: 20px 0px;
+       
+    }
+    .navbar-nav{
+        text-align: center;
+}
+.products>.row>.card{
+    margin: 15px;
+}
+.brands{
+    height: auto;
+}
+.brands>.container>.row>.col-lg-3{
+    margin: 5px;
+}
+.about>.container>.row>.col-lg-8>img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about>.container>.row>.col-lg-4>p{
+    width: 100%;
+    letter-spacing: 2px;
+   
+}
+.about{
+    height: auto;
+}
+
+.detail{
+    height: auto;
+}
+.detail>.container>.row>.col-lg-8>img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.detail>.container>.row>.col-lg-4>p{
+    width: 100%;
+    letter-spacing: 2px;
+   
+}
+.footer{
+    height: auto;
+}
+}
